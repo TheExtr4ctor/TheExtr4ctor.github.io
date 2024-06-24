@@ -11,16 +11,10 @@ Hello! I'm Muhammad Ishaque short for The Extr4ctor, and this is my GitHub Pages
 
 
 
-## Contact Me
 
-Feel free to reach out!
-
-- Email: [Your Email Address](mailto:youremail@example.com)
-- LinkedIn: [Your LinkedIn Profile](https://linkedin.com/yourprofile)
-- Twitter: [@YourTwitterHandle](https://twitter.com/yourhandle)
 
 ## More About Me
+I love learning new things and hyprland.
 
 
-
-Thank you for visiting my GitHub Pages profile repository! Don't hesitate to explore my projects and reach out if you have any questions or collaborations in mind.
+Thank you for visiting my GitHub Pages profile repository! Don't hesitate to reach out if you have any questions or collaborations in mind.
