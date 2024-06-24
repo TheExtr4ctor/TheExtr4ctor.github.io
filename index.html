@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Extr4ctor - CyberSec Enthusiast</title>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #0a192f;
+            --text-color: #8892b0;
+            --highlight-color: #64ffda;
+            --secondary-color: #ff6b6b;
+            --discord-color: #7289da;
+        }
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: 'Share Tech Mono', monospace;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+            position: relative;
+            z-index: 1;
+        }
+        header {
+            background: rgba(10, 25, 47, 0.8);
+            padding: 2rem 0;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            margin-bottom: 2rem;
+        }
+        h1, h2 {
+            color: var(--highlight-color);
+        }
+        .typing-text {
+            font-size: 2.5rem;
+            display: inline-block;
+            overflow: hidden;
+            border-right: 0.25em solid var(--highlight-color);
+            white-space: nowrap;
+            margin: 0 auto;
+            letter-spacing: 0.15em;
+            animation: typing 4s steps(40, end) 1s 1 normal both, blink-caret 0.75s step-end infinite;
+        }
+        @keyframes typing {
+            from { width: 0 }
+            to { width: 100% }
+        }
+        @keyframes blink-caret {
+            from, to { border-color: transparent; opacity: 1; }
+            50% { border-color: var(--highlight-color); opacity: 0.5; }
+        }
+
+        .nickname {
+            font-size: 1.5rem;
+            color: var(--secondary-color);
+            margin-top: 0.5rem;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 0.5rem;
+            transition: transform 0.3s ease;
+        }
+        li:hover {
+            transform: translateX(10px);
+            color: var(--highlight-color);
+        }
+        li::before {
+            content: "❯ ";
+            color: var(--secondary-color);
+        }
+        a {
+            color: var(--secondary-color);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        a:hover {
+            color: var(--highlight-color);
+        }
+        .jumbotron {
+            background: rgba(10, 25, 47, 0.8);
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(100, 255, 218, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            backdrop-filter: blur(5px);
+        }
+        .jumbotron:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 25px rgba(100, 255, 218, 0.2);
+        }
+        .cyber-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: 
+                linear-gradient(to bottom, rgba(10, 25, 47, 0.8) 0%, rgba(10, 25, 47, 0.2) 100%),
+                url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><rect fill="%23064663" width="50" height="50" x="0" y="0" /><rect fill="%23064663" width="50" height="50" x="50" y="50" /></svg>');
+            background-size: cover, 20px 20px;
+            opacity: 0.1;
+            z-index: -1;
+            animation: bgMove 60s linear infinite;
+        }
+        @keyframes bgMove {
+            from { background-position: 0 0, 0 0; }
+            to { background-position: 0 100%, 20px 20px; }
+        }
+        .profile-img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid var(--highlight-color);
+            margin-bottom: 1rem;
+        }
+        .cyber-line {
+            height: 1px;
+            background: var(--highlight-color);
+            opacity: 0.3;
+            margin: 2rem 0;
+        }
+        .icon-wrapper {
+    text-align: left;
+    margin-top: 1rem;
+}
+.discord-icon {
+    display: inline-block;
+    color: var(--discord-color);
+    transition: color 0.3s ease, transform 0.3s ease;
+    width: 48px;
+    height: 48px;
+    margin-left: 0;
+}
+.discord-icon:hover {
+    color: var(--highlight-color);
+    transform: scale(1.2);
+}
+
+        .contact-icons {
+            text-align: center;
+            margin-top: 1rem;
+        }
+    
+
+    </style>
+</head>
+<body>
+    
+    <div class="cyber-bg"></div>
+    <header>
+        <h1 class="typing-text">Digital Forensics Investigator</h1>
+        <div class="nickname">The Extr4ctor</div>
+    </header>
+    <div class="container">
+        <section class="jumbotron" id="about">
+            <h2>$ whoami</h2>
+            <p>Cybersecurity student | CTF player | Hyprland lover | Digital forensics enthusiast</p>
+            <p>I am passionate about all things cybersecurity and am always eager to learn and explore new areas in the field. I enjoy participating in Capture The Flag (CTF) competitions, where I can challenge myself and improve my skills. I have a strong interest in digital forensics and love to dive deep into the investigation of cyber crimes.</p>
+            <p>My current focus is on mastering penetration testing techniques and enhancing my knowledge of network security. I am an advocate of open-source software and love customizing my Linux environment, particularly using Hyprland for a tailored and efficient workflow.</p>
+            <img src="avatar.png" alt="Profile Image" class="profile-img">
+        </section>
+        <div class="cyber-line"></div>
+        <section class="jumbotron" id="skills">
+            <h2>$ ./skills.sh</h2>
+            <ul>
+                <li>Python, Rust, Ruby</li>
+                <li>Network Security</li>
+                <li>Digital Forensics</li>
+                <li>CTF Challenges</li>
+                <li>Linux (Hyprland) Administration</li>
+            </ul>
+        </section>
+        <div class="cyber-line"></div>
+        <section class="jumbotron" id="projects">
+            <h2>$ cat projects.txt</h2>
+            <p>Here you can list your cybersecurity projects, CTF achievements, or any relevant work.</p>
+        </section>
+        <div class="cyber-line"></div>
+        <section class="jumbotron" id="ctf-hunt">
+            <h2>$ Currently Heading the CTF Hunt 2024 Platform</h2>
+            <p>I am leading the development and management of the CTF Hunt 2024 platform, where participants can engage in various cybersecurity challenges to hone their skills. The platform features a wide range of CTF challenges designed to test and improve the participants' knowledge in different areas of cybersecurity, including penetration testing, digital forensics, cryptography, and more.</p>
+            <p>Join our Discord: <a href="https://discord.gg/jr6BuUfWPB" target="_blank">https://discord.gg/jr6BuUfWPB</a></p>
+        </section>
+        
+        <div class="cyber-line"></div>
+        <section class="jumbotron" id="contact">
+            <h2>$ ./contact</h2>
+           
+            <p>GitHub: github.com/</p>
+            
+        
+        </section>
+      
+        
+
+    </div>
+</body>
+</html>
